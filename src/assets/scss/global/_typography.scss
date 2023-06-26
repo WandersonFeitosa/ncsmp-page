@@ -1,0 +1,29 @@
+body,
+html {
+    font-size: 16px;
+
+    &,
+    * {
+        font-family: 'Inter';
+        line-height: 1.2;
+    }
+}
+
+p {
+    font-weight: 400;
+    line-height: 1.2;
+}
+
+.title-section,
+.title-section * {
+    font-family: 'Inter';
+    font-weight: 200;
+    font-size: rem(50);
+    line-height: 1.1;
+    margin-bottom: rem(32);
+
+    @media(max-width: $mobileEnd) {
+        font-size: rem(32);
+        margin-bottom: rem(40);
+    }
+}
